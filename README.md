@@ -75,37 +75,37 @@ El programa permite convertir entre las siguientes 40 monedas:
 
 Al iniciar el programa, verás una pantalla de bienvenida que te indica cómo comenzar.
 
-![Pantalla de inicio](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/inicio.png)
+![Pantalla de inicio](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/inicio.png)
 
 ### 2. Ingresar el monto a convertir
 
 Introduce la cantidad que deseas convertir y presiona Enter. Si deseas salir del programa, ingresa 0.
 
-![Ingreso de monto](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/ingreso.png)
+![Ingreso de monto](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/ingreso.png)
 
 ### 3. Seleccionar la moneda de origen
 
 Elige la moneda que posees actualmente introduciendo el número correspondiente y presiona Enter.
 
-![Selección de moneda origen](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/menu1.png)
+![Selección de moneda origen](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/menu1.png)
 
 ### 4. Seleccionar la moneda de destino
 
 Elige la moneda a la cual deseas convertir introduciendo el número correspondiente y presiona Enter.
 
-![Selección de moneda destino](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/menu2.png)
+![Selección de moneda destino](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/menu2.png)
 
 ### 5. Ver el resultado de la conversión
 
 El programa mostrará el resultado de la conversión, incluyendo el monto convertido y la tasa de cambio aplicada.
 
-![Resultado de conversión](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/resultado.png)
+![Resultado de conversión](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/resultado.png)
 
 ### 6. Continuar o salir
 
 Presiona Enter para realizar otra conversión o introduce 0 en cualquier momento para salir del programa.
 
-![Salida del programa](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/salida.png)
+![Salida del programa](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/salida.png)
 
 ## Sistema de Registro (Log)
 
@@ -120,7 +120,7 @@ El programa incluye un sistema de registro que guarda información detallada sob
 
 Este registro es útil para auditar el uso del programa, identificar problemas y analizar patrones de uso.
 
-![Ejemplo de log](https://github.com/FrancoCautivo/AluraConversorMonedas2025/tree/main/screenshots/log.png)
+![Ejemplo de log](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/log.png)
 
 NOTA: Si por alguna razón el archivo `conversiones_log.txt` no estuviese creado al ejecutar por primera vez el proyecto, el mismo código se encarga de crearlo y completarlo.
 
@@ -128,7 +128,7 @@ NOTA: Si por alguna razón el archivo `conversiones_log.txt` no estuviese creado
 
 - Java 11 o superior
 - Conexión a Internet para acceder a la API de tasas de cambio
-  Para este proyecto se ocupo la API de ExchangeRate (https://www.exchangerate-api.com/) pero es posible cambiarla por cualquier otra API
+  Para este proyecto se ocupo ([ExchangeRate-API](https://www.exchangerate-api.com/)) pero es posible cambiarla por cualquier otra API
 - Biblioteca GSON para el procesamiento de JSON (incluida en el proyecto)
 
 ## Descarga y Personalización
@@ -150,4 +150,4 @@ Este proyecto está disponible para uso libre. Puedes modificarlo y distribuirlo
 
 ## Desarrollador
 
-Desarrollado por Franco Cautivo como parte del programa ONE de Oracle y Alura Latam, 2025.
+Desarrollado por Francisco Cautivo como parte del programa ONE de Oracle y Alura Latam, 2025.
