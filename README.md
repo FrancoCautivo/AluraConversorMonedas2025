@@ -127,15 +127,24 @@ NOTA: Si por alguna razón el archivo `conversiones_log.txt` no estuviese creado
 ## Requisitos Técnicos
 
 - Java 11 o superior
+  Puedes descargar Java para tu equipo desde el siguiente link
+
+![Descargar Java](https://www.oracle.com/java/technologies/downloads/)
+  
 - Conexión a Internet para acceder a la API de tasas de cambio
-  Para este proyecto se ocupo ([ExchangeRate-API](https://www.exchangerate-api.com/)) pero es posible cambiarla por cualquier otra API
-- Biblioteca GSON para el procesamiento de JSON (incluida en el proyecto)
+  Para este proyecto se ocupo ([ExchangeRate-API](https://www.exchangerate-api.com/)) pero es posible cambiarla por cualquier 
+  otra API. Si se decide seguir usando ExchangeRate, se debe ingresar una APIKey propia en la clase 'ApiClient', tal como se 
+  muestra a continuacion:
+
+![Donde ingresar la APIKey](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/apikey.png)
+  
+- Biblioteca GSON para el procesamiento de JSON (incluida en el proyecto en su versión 2.13.0)
 
 ## Descarga y Personalización
 
 Puedes descargar el proyecto completo en formato ZIP desde el siguiente enlace:
 
-[Descargar Conversor de Monedas](https://github.com/FrancoCautivo/AluraConversorMonedas2025/archive/refs/heads/main.zip)
+![Descargar Conversor de Monedas](https://github.com/FrancoCautivo/AluraConversorMonedas2025/archive/refs/heads/main.zip)
 
 El proyecto está disponible para ser modificado y ampliado según tus necesidades. Algunas ideas para mejoras futuras:
 
