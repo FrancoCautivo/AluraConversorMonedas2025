@@ -129,11 +129,11 @@ NOTA: Si por alguna razón el archivo `conversiones_log.txt` no estuviese creado
 - Java 11 o superior
   Puedes descargar Java para tu equipo desde el siguiente link
 
-![Descargar Java](https://www.oracle.com/java/technologies/downloads/)
+([Descargar Java](https://www.oracle.com/java/technologies/downloads/))
   
 - Conexión a Internet para acceder a la API de tasas de cambio
   Para este proyecto se ocupo ([ExchangeRate-API](https://www.exchangerate-api.com/)) pero es posible cambiarla por cualquier 
-  otra API. Si se decide seguir usando ExchangeRate, se debe ingresar una APIKey propia en la clase 'ApiClient', tal como se 
+  otra API. Si se decide seguir usando ExchangeRate, se debe ingresar una APIKey propia en la clase `APIClient.java`, actualmente en la linea 14, tal como se 
   muestra a continuacion:
 
 ![Donde ingresar la APIKey](https://github.com/FrancoCautivo/AluraConversorMonedas2025/blob/main/screenshots/apikey.png)
@@ -144,7 +144,7 @@ NOTA: Si por alguna razón el archivo `conversiones_log.txt` no estuviese creado
 
 Puedes descargar el proyecto completo en formato ZIP desde el siguiente enlace:
 
-![Descargar Conversor de Monedas](https://github.com/FrancoCautivo/AluraConversorMonedas2025/archive/refs/heads/main.zip)
+([Descargar Conversor de Monedas en ZIP](https://github.com/FrancoCautivo/AluraConversorMonedas2025/archive/refs/heads/main.zip))
 
 El proyecto está disponible para ser modificado y ampliado según tus necesidades. Algunas ideas para mejoras futuras:
 
@@ -159,4 +159,4 @@ Este proyecto está disponible para uso libre. Puedes modificarlo y distribuirlo
 
 ## Desarrollador
 
-Desarrollado por Francisco Cautivo como parte del programa ONE de Oracle y Alura Latam, 2025.
+Desarrollado por ([Francisco Cautivo](https://github.com/FrancoCautivo/)) como parte del programa ONE de Oracle y Alura Latam, 2025.
