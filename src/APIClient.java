@@ -11,7 +11,7 @@ import com.google.gson.JsonObject;
 
 public class APIClient {
 
-    private static final String API_KEY = "280034449e52da7b54344c14";
+    private static final String API_KEY = "Aqui debes ingresar tu propia APIKey";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
     private static final HttpClient client = HttpClient.newHttpClient();
     private static final Gson gson = new Gson();
